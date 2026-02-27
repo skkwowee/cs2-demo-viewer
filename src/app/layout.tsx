@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chimera — Think Before You See",
+  title: "CS2 Demo Viewer",
   description:
-    "Can VLMs learn to play CS2? VLMs as game agents without reinforcement learning from scratch.",
+    "Interactive viewer for Counter-Strike 2 demo replays with radar visualization, vision cones, and kill lines.",
 };
 
 export default function RootLayout({
