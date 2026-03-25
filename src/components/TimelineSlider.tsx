@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export interface KillEvent {
   tick: number;
@@ -34,8 +34,10 @@ export default function TimelineSlider({
 
   const tickRange = endTick - startTick || 1;
 
-  const animate = useCallback(
-    (now: number) => {
+  const animateRef = useRef<(now: number) => void>(() => {});
+
+  useEffect(() => {
+    animateRef.current = (now: number) => {
       if (!playing) return;
       const dt = lastTime.current ? now - lastTime.current : 0;
       lastTime.current = now;
@@ -49,19 +51,18 @@ export default function TimelineSlider({
           frameIndex < frameCount - 1 ? frameIndex + 1 : 0
         );
       }
-      rafRef.current = requestAnimationFrame(animate);
-    },
-    [playing, speed, frameIndex, frameCount, onFrameChange]
-  );
+      rafRef.current = requestAnimationFrame((t) => animateRef.current(t));
+    };
+  }, [playing, speed, frameIndex, frameCount, onFrameChange]);
 
   useEffect(() => {
     if (playing) {
       lastTime.current = 0;
       accum.current = 0;
-      rafRef.current = requestAnimationFrame(animate);
+      rafRef.current = requestAnimationFrame((t) => animateRef.current(t));
     }
     return () => cancelAnimationFrame(rafRef.current);
-  }, [playing, animate]);
+  }, [playing]);
 
   return (
     <div className="flex flex-col gap-2">
@@ -69,7 +70,7 @@ export default function TimelineSlider({
       <div className="relative">
         {/* Kill marker overlay */}
         <div className="pointer-events-none absolute inset-x-0 top-0 h-6">
-          {kills.map((k, i) => {
+          {kills.map((k) => {
             const pct = ((k.tick - startTick) / tickRange) * 100;
             if (pct < 0 || pct > 100) return null;
             return (

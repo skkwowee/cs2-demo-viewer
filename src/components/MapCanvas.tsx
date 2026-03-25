@@ -383,20 +383,23 @@ export default function MapCanvas({ mapName, players, mapData, killLines, damage
 
   // Load upper radar image + extract wall mask
   useEffect(() => {
-    setUpperImgLoaded(false);
+    let cancelled = false;
     upperWallMaskRef.current = null;
     const img = new Image();
     img.src = `/maps/${mapName}.png`;
     img.onload = () => {
+      if (cancelled) return;
       upperImgRef.current = img;
       upperWallMaskRef.current = extractWallMask(img);
       setUpperImgLoaded(true);
     };
     img.onerror = () => {
+      if (cancelled) return;
       upperImgRef.current = null;
       upperWallMaskRef.current = null;
       setUpperImgLoaded(false);
     };
+    return () => { cancelled = true; setUpperImgLoaded(false); };
   }, [mapName]);
 
   // Load lower radar image + extract wall mask (only for multi-level maps)
@@ -404,23 +407,25 @@ export default function MapCanvas({ mapName, players, mapData, killLines, damage
     if (!hasLower) {
       lowerImgRef.current = null;
       lowerWallMaskRef.current = null;
-      setLowerImgLoaded(false);
       return;
     }
-    setLowerImgLoaded(false);
+    let cancelled = false;
     lowerWallMaskRef.current = null;
     const img = new Image();
     img.src = `/maps/${mapName}_lower.png`;
     img.onload = () => {
+      if (cancelled) return;
       lowerImgRef.current = img;
       lowerWallMaskRef.current = extractWallMask(img);
       setLowerImgLoaded(true);
     };
     img.onerror = () => {
+      if (cancelled) return;
       lowerImgRef.current = null;
       lowerWallMaskRef.current = null;
       setLowerImgLoaded(false);
     };
+    return () => { cancelled = true; setLowerImgLoaded(false); };
   }, [mapName, hasLower]);
 
   const worldToPixel = useCallback(

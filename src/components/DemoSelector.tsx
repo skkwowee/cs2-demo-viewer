@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export interface DemoEntry {
   stem: string;
@@ -20,7 +20,6 @@ export default function DemoSelector({
   selectedRound,
 }: Props) {
   const [demos, setDemos] = useState<DemoEntry[]>([]);
-  const [roundCount, setRoundCount] = useState(0);
 
   useEffect(() => {
     fetch("/viewer-data/index.json")
@@ -34,10 +33,10 @@ export default function DemoSelector({
       .catch(() => setDemos([]));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps -- load demo index once on mount
 
-  useEffect(() => {
-    if (!selectedDemo) return;
+  const roundCount = useMemo(() => {
+    if (!selectedDemo) return 0;
     const entry = demos.find((d) => d.stem === selectedDemo);
-    setRoundCount(entry?.rounds ?? 0);
+    return entry?.rounds ?? 0;
   }, [selectedDemo, demos]);
 
   return (

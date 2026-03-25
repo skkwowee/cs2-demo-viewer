@@ -76,23 +76,24 @@ export default function ViewerPage() {
   // Load demo metadata when demo changes
   useEffect(() => {
     if (!selectedDemo) return;
-    setMeta(null);
+    let cancelled = false;
     fetch(`/viewer-data/${selectedDemo}/meta.json`)
       .then((r) => r.json())
-      .then(setMeta)
-      .catch(() => setMeta(null));
+      .then((data: MetaData) => { if (!cancelled) setMeta(data); })
+      .catch(() => { if (!cancelled) setMeta(null); });
+    return () => { cancelled = true; setMeta(null); };
   }, [selectedDemo]);
 
   // Load round data when round changes
   useEffect(() => {
     if (!selectedDemo) return;
-    setRoundData(null);
-    setFrameIndex(0);
+    let cancelled = false;
     const padded = String(selectedRound).padStart(2, "0");
     fetch(`/viewer-data/${selectedDemo}/round_${padded}.json`)
       .then((r) => r.json())
-      .then(setRoundData)
-      .catch(() => setRoundData(null));
+      .then((data: RoundData) => { if (!cancelled) { setRoundData(data); setFrameIndex(0); } })
+      .catch(() => { if (!cancelled) setRoundData(null); });
+    return () => { cancelled = true; setRoundData(null); setFrameIndex(0); };
   }, [selectedDemo, selectedRound]);
 
   const handleSelect = useCallback((demo: string, round: number) => {
