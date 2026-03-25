@@ -195,10 +195,8 @@ export default function ViewerPage() {
               href="/"
               className="font-mono text-lg font-bold tracking-tight"
             >
-              Chimera
+              CS2 Demo Viewer
             </Link>
-            <span className="text-xs text-muted">/</span>
-            <span className="text-sm font-medium">Demo Viewer</span>
           </div>
           <DemoSelector
             onSelect={handleSelect}
@@ -308,9 +306,9 @@ export default function ViewerPage() {
               )}
               {roundKills
                 .filter((k) => k.tick <= currentTick)
-                .map((k, i) => (
+                .map((k) => (
                 <div
-                  key={i}
+                  key={`${k.tick}-${k.attacker_name}-${k.victim_name}`}
                   className={`text-xs ${k.weapon === "world" ? "text-muted/50 italic" : ""}`}
                 >
                   {k.weapon === "world" ? (

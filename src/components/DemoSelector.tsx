@@ -32,7 +32,7 @@ export default function DemoSelector({
         }
       })
       .catch(() => setDemos([]));
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps -- load demo index once on mount
 
   useEffect(() => {
     if (!selectedDemo) return;

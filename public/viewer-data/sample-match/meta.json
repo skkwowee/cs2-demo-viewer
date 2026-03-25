@@ -1,0 +1,29 @@
+{
+  "stem": "sample-match",
+  "map_name": "de_dust2",
+  "header": {
+    "map_name": "de_dust2",
+    "server_name": "Sample Server"
+  },
+  "rounds": [
+    { "round_num": 1, "winner": "ct", "reason": "ct_win_elimination" }
+  ],
+  "kills": [
+    {
+      "tick": 5200,
+      "round_num": 1,
+      "attacker_name": "Alice",
+      "attacker_side": "CT",
+      "attacker_X": -500,
+      "attacker_Y": -1800,
+      "victim_name": "Dave",
+      "victim_side": "T",
+      "victim_X": -300,
+      "victim_Y": -1600,
+      "weapon": "ak47"
+    }
+  ],
+  "damages": [],
+  "shots": [],
+  "bomb": []
+}

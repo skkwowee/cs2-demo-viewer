@@ -74,7 +74,7 @@ export default function TimelineSlider({
             if (pct < 0 || pct > 100) return null;
             return (
               <div
-                key={i}
+                key={`${k.tick}-${k.attacker_name}-${k.victim_name}`}
                 className="absolute top-0 h-full w-0.5 bg-red-500/70"
                 style={{ left: `${pct}%` }}
                 title={`${k.attacker_name} killed ${k.victim_name} (${k.weapon})`}

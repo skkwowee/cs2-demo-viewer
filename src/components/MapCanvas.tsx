@@ -78,7 +78,8 @@ function extractWallMask(img: HTMLImageElement): Uint8Array {
   const offscreen = document.createElement("canvas");
   offscreen.width = CANVAS_SIZE;
   offscreen.height = CANVAS_SIZE;
-  const ctx = offscreen.getContext("2d")!;
+  const ctx = offscreen.getContext("2d");
+  if (!ctx) return new Uint8Array(CANVAS_SIZE * CANVAS_SIZE);
   ctx.drawImage(img, 0, 0, CANVAS_SIZE, CANVAS_SIZE);
   const imageData = ctx.getImageData(0, 0, CANVAS_SIZE, CANVAS_SIZE);
   const data = imageData.data;

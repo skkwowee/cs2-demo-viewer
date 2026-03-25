@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CS2 Demo Viewer",
   description:
-    "Interactive viewer for Counter-Strike 2 demo replays with radar visualization, vision cones, and kill lines.",
+    "Interactive 2D replay viewer for Counter-Strike 2 demo files. Visualize player positions, vision cones, kills, and utility on radar maps.",
 };
 
 export default function RootLayout({
