@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "source_vod": "k9E4wwLKXE0",
+    "source": "Spirit vs Falcons PGL Astana 2026 GF auto-captions",
+    "alignment": "DEMONSTRATION ONLY -- VOD seconds linearly mapped onto round ticks (uniform stretch). NOT anchor-based; the real alignment (kill/round cross-correlation, asymmetric lead/lag) comes from the pod step.",
+    "span_vod_sec": [
+      2721.4,
+      2961.4
+    ],
+    "n_lines": 16,
+    "n_tactical_in_span": 11
+  },
+  "lines": [
+    {
+      "round_num": 1,
+      "tick_start": 2400,
+      "tick_end": 3000,
+      "bucket": "tactical",
+      "specific_hits": [
+        "buying",
+        "molly",
+        "save"
+      ],
+      "t_vod": 2721.4,
+      "text": "nice versus walk out, but not always >> versus a half buying team. Already denying all the information that want to save for themselves. That molly will"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 3000,
+      "tick_end": 3600,
+      "bucket": "tactical",
+      "specific_hits": [
+        "grenade",
+        "back"
+      ],
+      "t_vod": 2736.4,
+      "text": "help Shiro. >> Kriegan walks wide. Niko sails beyond that frag grenade, and Donk's going to rattle off an off shot, so they hear it. >> This is about Falcons. Get as much space as you can without getting spotted. Zontik is leaning all the way back on platform, has Donk to also play off"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 3600,
+      "tick_end": 4200,
+      "bucket": "tactical",
+      "specific_hits": [
+        "utility",
+        "smoke",
+        "lurk",
+        "smoke"
+      ],
+      "t_vod": 2751.4,
+      "text": "him. No pounce while they play around with utility. They're paranoid or at the right thing. Magic's already making the Zontik still smoke in hand. >> Numbers look appropriate for the situation. We get that lurk smoke"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 4200,
+      "tick_end": 4800,
+      "bucket": "tactical",
+      "specific_hits": [
+        "tunnels",
+        "nade",
+        "double",
+        "support"
+      ],
+      "t_vod": 2766.4,
+      "text": "at the end of the tunnels, but what will be behind it? Sontix has this nade, he could place it for damage. >> How's that arm? He could expose them standing in the pipe. Perfection with that double mow down. ADD TO IT THE CARRYING AND DICE TOWARDS MIDDLE WITH NOTHING and donk is here to support you. It is confidence inside"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 4800,
+      "tick_end": 5400,
+      "bucket": "tactical",
+      "specific_hits": [
+        "buy",
+        "buy",
+        "site"
+      ],
+      "t_vod": 2781.4,
+      "text": "this B site and a staved off pistol buy from Falcons, you will find nothing. And it seems like a small win to win that half buy. Trust me, that could have been converted. Falcons did about 70% of what they were trying to look"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 5400,
+      "tick_end": 6000,
+      "bucket": "tactical",
+      "specific_hits": [
+        "split",
+        "rotation",
+        "info"
+      ],
+      "t_vod": 2796.4,
+      "text": "for was really get past a lot of the info that Spirit were trying to gather and they were doing so very proactively to give themselves a chance at a B split that Spirit don't know about, but Magix he made the rotation correctly"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 6000,
+      "tick_end": 6600,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "t_vod": 2811.4,
+      "text": "to support the op and the rifle. And the second op Two separate halves now, we've seen an evolution from Spirit. Not"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 6600,
+      "tick_end": 7200,
+      "bucket": "tactical",
+      "specific_hits": [
+        "duel",
+        "picks",
+        "back",
+        "double"
+      ],
+      "t_vod": 2826.4,
+      "text": "the first team to wield two ops, but putting it to perfection. Losing the duel though versus Honesty. Oh, he said, \"Look who's faster.\" I like that Magix instantly picks that bad boy right back up, so still a double op for Spirit."
+    },
+    {
+      "round_num": 1,
+      "tick_start": 7200,
+      "tick_end": 7800,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "t_vod": 2841.4,
+      "text": "Honesty with the quickness. Wins one straight up >> to defend their hopes of winning this"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 7800,
+      "tick_end": 8400,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "t_vod": 2856.4,
+      "text": "Mid B's have been the apple of Kerigan's eye so far. And it's also something that Spirit know that they always try to get. So,"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 8400,
+      "tick_end": 9000,
+      "bucket": "tactical",
+      "specific_hits": [
+        "lurk",
+        "smoke"
+      ],
+      "t_vod": 2871.4,
+      "text": "again, in an act of covering his tracks, there's a lurk in place, but it's not necessarily the full take. Niko will walk through this. Zontix on the other side to near head tucked on A. That that smoke is in your face. He will walk"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 9000,
+      "tick_end": 9600,
+      "bucket": "tactical",
+      "specific_hits": [
+        "plant",
+        "ct",
+        "site",
+        "advantage"
+      ],
+      "t_vod": 2886.4,
+      "text": "through. But it's all about the timing. Oh, he'll take a bit of damage. Zontix comes out with the kill. It's going to be Tenir yet again. Rock solid throughout this CT side. Donk's looking FOR AN OFF KILL. MODDII HAS GOT THE BETTER OF HIM AND it's Tesseract to open that bomb site for the plant. Man advantage momentarily."
+    },
+    {
+      "round_num": 1,
+      "tick_start": 9600,
+      "tick_end": 10200,
+      "bucket": "vague",
+      "specific_hits": [],
+      "t_vod": 2901.4,
+      "text": "Zontix quick to the scene with a kill to his name already over Niko. He may have just gone unnoticed. What sort of timing can he pull off here? >> Oh, they got to make sure the communication's good. Keep an eye on >> Tesseract low HP. Easy pickings. Exposed Kioske HOLDS ON FOR"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 10200,
+      "tick_end": 10800,
+      "bucket": "tactical",
+      "specific_hits": [
+        "money",
+        "double"
+      ],
+      "t_vod": 2916.4,
+      "text": "THAT ONE. AND YOU'VE GOT THE TWO BEST PERFORMING players for Falcons still alive and Magixs wants none of this. >> They have a decent amount of money, but he's going to keep the off in play. It's Moddii to actually take out both of the double off set up here from Spirit. Out dueling Shiro"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 10800,
+      "tick_end": 11400,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "t_vod": 2931.4,
+      "text": "taking out Donk as they go towards the A site. That puts him on 20. Gives Falcons 10. >> So again, the"
+    },
+    {
+      "round_num": 1,
+      "tick_start": 11400,
+      "tick_end": 12000,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smokes",
+        "double",
+        "ct"
+      ],
+      "t_vod": 2946.4,
+      "text": "idea is very simple, but it builds off of what we've seen out of Falcons so far. Their affinity for the B The double smokes out middle just to make sure that nobody moves or best case somebody comes from CT over towards B."
+    }
+  ]
+}

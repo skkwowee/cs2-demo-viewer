@@ -9,6 +9,12 @@ export interface KillEvent {
   weapon?: string;
 }
 
+export interface CommentarySpan {
+  tick_start: number;
+  tick_end: number;
+  bucket: string;
+}
+
 interface Props {
   frameIndex: number;
   frameCount: number;
@@ -16,6 +22,7 @@ interface Props {
   kills: KillEvent[];
   startTick: number;
   endTick: number;
+  commentary?: CommentarySpan[];
 }
 
 export default function TimelineSlider({
@@ -25,6 +32,7 @@ export default function TimelineSlider({
   kills,
   startTick,
   endTick,
+  commentary = [],
 }: Props) {
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
@@ -66,6 +74,30 @@ export default function TimelineSlider({
 
   return (
     <div className="flex flex-col gap-2">
+      {/* Commentary bands — show where caster windows fall on the timeline */}
+      {commentary.length > 0 && (
+        <div className="pointer-events-none relative h-1.5">
+          {commentary.map((c, i) => {
+            const left = ((c.tick_start - startTick) / tickRange) * 100;
+            const width = ((c.tick_end - c.tick_start) / tickRange) * 100;
+            if (left > 100 || left + width < 0) return null;
+            return (
+              <div
+                key={`cmt-${c.tick_start}-${i}`}
+                className={`absolute top-0 h-full rounded-sm ${
+                  c.bucket === "tactical"
+                    ? "bg-emerald-400/70"
+                    : c.bucket === "vague"
+                    ? "bg-amber-400/40"
+                    : "bg-muted/30"
+                }`}
+                style={{ left: `${left}%`, width: `${Math.max(width, 0.4)}%` }}
+              />
+            );
+          })}
+        </div>
+      )}
+
       {/* Kill markers + slider */}
       <div className="relative">
         {/* Kill marker overlay */}

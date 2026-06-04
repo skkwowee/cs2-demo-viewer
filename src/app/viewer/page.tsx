@@ -5,6 +5,12 @@ import Link from "next/link";
 import DemoSelector from "@/components/DemoSelector";
 import MapCanvas, { type MapInfo, type PlayerFrame, type KillLine, type DamageLine, type ShotTracer } from "@/components/MapCanvas";
 import TimelineSlider, { type KillEvent } from "@/components/TimelineSlider";
+import CommentaryTrack, { type CommentaryLine } from "@/components/CommentaryTrack";
+
+interface CommentaryFile {
+  _meta?: { source?: string; alignment?: string };
+  lines: CommentaryLine[];
+}
 
 interface RoundData {
   round_num: number;
@@ -64,6 +70,7 @@ export default function ViewerPage() {
   const [roundData, setRoundData] = useState<RoundData | null>(null);
   const [frameIndex, setFrameIndex] = useState(0);
   const [mapData, setMapData] = useState<Record<string, MapInfo> | null>(null);
+  const [commentary, setCommentary] = useState<CommentaryFile | null>(null);
 
   // Load map coordinate data once
   useEffect(() => {
@@ -81,7 +88,13 @@ export default function ViewerPage() {
       .then((r) => r.json())
       .then((data: MetaData) => { if (!cancelled) setMeta(data); })
       .catch(() => { if (!cancelled) setMeta(null); });
-    return () => { cancelled = true; setMeta(null); };
+    // Commentary is optional — a demo without a commentary.json simply shows
+    // an empty track.
+    fetch(`/viewer-data/${selectedDemo}/commentary.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: CommentaryFile | null) => { if (!cancelled) setCommentary(data); })
+      .catch(() => { if (!cancelled) setCommentary(null); });
+    return () => { cancelled = true; setMeta(null); setCommentary(null); };
   }, [selectedDemo]);
 
   // Load round data when round changes
@@ -118,6 +131,11 @@ export default function ViewerPage() {
   // Round info
   const roundInfo = meta?.rounds?.find(
     (r: { round_num: number }) => r.round_num === selectedRound
+  );
+
+  // Commentary lines for this round
+  const roundCommentary: CommentaryLine[] = (commentary?.lines ?? []).filter(
+    (l) => l.round_num === selectedRound
   );
 
   // Kill lines: show kills whose tick is <= current frame tick (within a small window)
@@ -222,7 +240,14 @@ export default function ViewerPage() {
         </div>
 
         {/* Side panel */}
-        <div className="w-72 shrink-0 space-y-4">
+        <div className="w-80 shrink-0 space-y-4">
+          {/* Commentary — time-synced to the current tick */}
+          <CommentaryTrack
+            lines={roundCommentary}
+            currentTick={currentTick}
+            meta={commentary?._meta}
+          />
+
           {/* Round info */}
           <div className="rounded-lg border border-border bg-card p-4">
             <h3 className="text-xs font-semibold uppercase tracking-wider text-muted">
@@ -343,6 +368,11 @@ export default function ViewerPage() {
             kills={roundKills}
             startTick={roundData?.start_tick ?? 0}
             endTick={roundData?.end_tick ?? 1}
+            commentary={roundCommentary.map((l) => ({
+              tick_start: l.tick_start,
+              tick_end: l.tick_end,
+              bucket: l.bucket,
+            }))}
           />
         </div>
       </div>
