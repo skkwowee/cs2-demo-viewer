@@ -1,204 +1,1405 @@
 {
   "_meta": {
-    "source_vod": "k9E4wwLKXE0",
-    "source": "Spirit vs Falcons PGL Astana 2026 GF auto-captions",
-    "alignment": "DEMONSTRATION ONLY -- VOD seconds linearly mapped onto round ticks (uniform stretch). NOT anchor-based; the real alignment (kill/round cross-correlation, asymmetric lead/lag) comes from the pod step.",
-    "span_vod_sec": [
-      2721.4,
-      2961.4
-    ],
-    "n_lines": 16,
-    "n_tactical_in_span": 11
+    "source_vod": "TQwIfQqwP_M",
+    "source": "StarLadder Major Budapest 2025 | A \u2014 spirit-vs-falcons-m2-dust2 auto-captions",
+    "alignment": "REAL: kills\u2194name-mentions cross-correlation. offset=10274s (171min), confidence=4.6sigma, 46/187 (25%) kills anchored. The offset is solid; the low % is lossy auto-caption ASR (names like NiKo/TeSeS not transcribed), so per-line timing is good to a few seconds + pause drift, not frame-exact. Tick ranges are absolute demo ticks.",
+    "n_lines": 128
   },
   "lines": [
     {
       "round_num": 1,
-      "tick_start": 2400,
-      "tick_end": 3000,
-      "bucket": "tactical",
-      "specific_hits": [
-        "buying",
-        "molly",
-        "save"
-      ],
-      "t_vod": 2721.4,
-      "text": "nice versus walk out, but not always >> versus a half buying team. Already denying all the information that want to save for themselves. That molly will"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 3000,
-      "tick_end": 3600,
-      "bucket": "tactical",
-      "specific_hits": [
-        "grenade",
-        "back"
-      ],
-      "t_vod": 2736.4,
-      "text": "help Shiro. >> Kriegan walks wide. Niko sails beyond that frag grenade, and Donk's going to rattle off an off shot, so they hear it. >> This is about Falcons. Get as much space as you can without getting spotted. Zontik is leaning all the way back on platform, has Donk to also play off"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 3600,
-      "tick_end": 4200,
-      "bucket": "tactical",
-      "specific_hits": [
-        "utility",
-        "smoke",
-        "lurk",
-        "smoke"
-      ],
-      "t_vod": 2751.4,
-      "text": "him. No pounce while they play around with utility. They're paranoid or at the right thing. Magic's already making the Zontik still smoke in hand. >> Numbers look appropriate for the situation. We get that lurk smoke"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 4200,
-      "tick_end": 4800,
-      "bucket": "tactical",
-      "specific_hits": [
-        "tunnels",
-        "nade",
-        "double",
-        "support"
-      ],
-      "t_vod": 2766.4,
-      "text": "at the end of the tunnels, but what will be behind it? Sontix has this nade, he could place it for damage. >> How's that arm? He could expose them standing in the pipe. Perfection with that double mow down. ADD TO IT THE CARRYING AND DICE TOWARDS MIDDLE WITH NOTHING and donk is here to support you. It is confidence inside"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 4800,
-      "tick_end": 5400,
-      "bucket": "tactical",
-      "specific_hits": [
-        "buy",
-        "buy",
-        "site"
-      ],
-      "t_vod": 2781.4,
-      "text": "this B site and a staved off pistol buy from Falcons, you will find nothing. And it seems like a small win to win that half buy. Trust me, that could have been converted. Falcons did about 70% of what they were trying to look"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 5400,
-      "tick_end": 6000,
-      "bucket": "tactical",
-      "specific_hits": [
-        "split",
-        "rotation",
-        "info"
-      ],
-      "t_vod": 2796.4,
-      "text": "for was really get past a lot of the info that Spirit were trying to gather and they were doing so very proactively to give themselves a chance at a B split that Spirit don't know about, but Magix he made the rotation correctly"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 6000,
-      "tick_end": 6600,
+      "tick_start": 816,
+      "tick_end": 2736,
       "bucket": "offtopic",
       "specific_hits": [],
-      "t_vod": 2811.4,
-      "text": "to support the op and the rifle. And the second op Two separate halves now, we've seen an evolution from Spirit. Not"
+      "structurally_flat": true,
+      "text": "playing cuz you played uh, you know, with a fair few superstars around you. Was there ever any time where your superstar on the team didn't perform? And what would you do in that situation if you know they've had a a tilter of a map to make sure that that doesn't spiral out of control and continue uh into"
     },
     {
       "round_num": 1,
-      "tick_start": 6600,
-      "tick_end": 7200,
-      "bucket": "tactical",
-      "specific_hits": [
-        "duel",
-        "picks",
-        "back",
-        "double"
-      ],
-      "t_vod": 2826.4,
-      "text": "the first team to wield two ops, but putting it to perfection. Losing the duel though versus Honesty. Oh, he said, \"Look who's faster.\" I like that Magix instantly picks that bad boy right back up, so still a double op for Spirit."
-    },
-    {
-      "round_num": 1,
-      "tick_start": 7200,
-      "tick_end": 7800,
+      "tick_start": 2736,
+      "tick_end": 4656,
       "bucket": "offtopic",
       "specific_hits": [],
-      "t_vod": 2841.4,
-      "text": "Honesty with the quickness. Wins one straight up >> to defend their hopes of winning this"
+      "structurally_flat": false,
+      "text": "the rest of the series? >> I think in in these sorts of situations, you kind of just want to talk about it. Make sure that you hit doomsday [music] in the way that you want to. Like no matter what happens, let's go into this. Let's give it 150% and see what happens."
     },
     {
       "round_num": 1,
-      "tick_start": 7800,
-      "tick_end": 8400,
+      "tick_start": 4656,
+      "tick_end": 6576,
       "bucket": "offtopic",
       "specific_hits": [],
-      "t_vod": 2856.4,
-      "text": "Mid B's have been the apple of Kerigan's eye so far. And it's also something that Spirit know that they always try to get. So,"
+      "structurally_flat": false,
+      "text": "Don't play with any hesitancy. Make sure you [music] play your own style because this is the worst case scenario for Falcons already. They [music] have nothing to lose going into the second match and and actually just, you know, relaxing a little bit and and"
     },
     {
-      "round_num": 1,
-      "tick_start": 8400,
-      "tick_end": 9000,
-      "bucket": "tactical",
-      "specific_hits": [
-        "lurk",
-        "smoke"
-      ],
-      "t_vod": 2871.4,
-      "text": "again, in an act of covering his tracks, there's a lurk in place, but it's not necessarily the full take. Niko will walk through this. Zontix on the other side to near head tucked on A. That that smoke is in your face. He will walk"
+      "round_num": 2,
+      "tick_start": 6576,
+      "tick_end": 8496,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": ">> Well, before we do dive into that second map, it is indeed dust two. I believe Donna has been getting busy down in the crowd. So, let's check in with her. >> Hey guys, what up? >> What up? >> Hi. So, you speak good English, huh? >> Uh, pretty pretty much."
     },
     {
-      "round_num": 1,
-      "tick_start": 9000,
-      "tick_end": 9600,
-      "bucket": "tactical",
-      "specific_hits": [
-        "plant",
-        "ct",
-        "site",
-        "advantage"
-      ],
-      "t_vod": 2886.4,
-      "text": "through. But it's all about the timing. Oh, he'll take a bit of damage. Zontix comes out with the kill. It's going to be Tenir yet again. Rock solid throughout this CT side. Donk's looking FOR AN OFF KILL. MODDII HAS GOT THE BETTER OF HIM AND it's Tesseract to open that bomb site for the plant. Man advantage momentarily."
-    },
-    {
-      "round_num": 1,
-      "tick_start": 9600,
-      "tick_end": 10200,
+      "round_num": 2,
+      "tick_start": 8496,
+      "tick_end": 10416,
       "bucket": "vague",
       "specific_hits": [],
-      "t_vod": 2901.4,
-      "text": "Zontix quick to the scene with a kill to his name already over Niko. He may have just gone unnoticed. What sort of timing can he pull off here? >> Oh, they got to make sure the communication's good. Keep an eye on >> Tesseract low HP. Easy pickings. Exposed Kioske HOLDS ON FOR"
+      "structurally_flat": true,
+      "text": ">> Okay. Where are you from, guys? We're from Sweden. >> you too? >> But then you speak good English. All Swedish people speak good English. No. >> All right. >> You're also from Sweden. >> Yeah. Yeah. All from Sweden. >> All from Sweden. Okay. Which team did you come to support to? >> Uh Fury."
     },
     {
-      "round_num": 1,
-      "tick_start": 10200,
-      "tick_end": 10800,
-      "bucket": "tactical",
-      "specific_hits": [
-        "money",
-        "double"
-      ],
-      "t_vod": 2916.4,
-      "text": "THAT ONE. AND YOU'VE GOT THE TWO BEST PERFORMING players for Falcons still alive and Magixs wants none of this. >> They have a decent amount of money, but he's going to keep the off in play. It's Moddii to actually take out both of the double off set up here from Spirit. Out dueling Shiro"
-    },
-    {
-      "round_num": 1,
-      "tick_start": 10800,
-      "tick_end": 11400,
+      "round_num": 2,
+      "tick_start": 10416,
+      "tick_end": 12336,
       "bucket": "offtopic",
       "specific_hits": [],
-      "t_vod": 2931.4,
-      "text": "taking out Donk as they go towards the A site. That puts him on 20. Gives Falcons 10. >> So again, the"
+      "structurally_flat": true,
+      "text": ">> Yeah. Fury. >> Fury. All Furya. >> Okay. Who's your favorite player? >> Fallen. Fallen. All. >> What about you? >> Fallen. Of course. Queserato. >> Okay. But you have a sign for another player. Who Who do you have? Can you show"
     },
     {
-      "round_num": 1,
-      "tick_start": 11400,
-      "tick_end": 12000,
+      "round_num": 2,
+      "tick_start": 12336,
+      "tick_end": 14256,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "it? >> Yeah. So tonight, FA is not playing. So we have to have >> Yeah, they they changed that with an A. >> Okay, guys. Is this your first time in"
+    },
+    {
+      "round_num": 3,
+      "tick_start": 14256,
+      "tick_end": 16176,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": ">> It is. >> How are you liking it? >> It's very good. >> And how are you liking the arena here? >> It's really It's big. It's very big, but it's it's nice. It's modern. [music] We like it. >> And is it the Do you guys go to CS events often together? >> No, it's our first time. So, uh,"
+    },
+    {
+      "round_num": 3,
+      "tick_start": 16176,
+      "tick_end": 18096,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "we like it very much. However, the the beer tap is very slow. So, we're a bit disappointed about that. >> Okay. Okay. Okay. Yeah, you have to go to Cologne for that. >> Is it better there? >> No. [laughter] And, uh, how do you guys know each other? From CS? >> Uh, no, from uh, from"
+    },
+    {
+      "round_num": 3,
+      "tick_start": 18096,
+      "tick_end": 20016,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "school. Uh, [music] pretty much football as well. >> And you're all CS fans as well? >> Yeah, of course. >> That's amazing. Okay, guys. Uh, I hope you have an amazing event. >> Thank you. >> Thank you. >> Yeah. Yeah. Yeah. Yeah. Yeah. Where's"
+    },
+    {
+      "round_num": 3,
+      "tick_start": 20016,
+      "tick_end": 21936,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": ">> Always asking. Uh yeah, if you're a Dora Spirit fan right now, you got to be feeling pretty good. Particularly as they're going to be moving into their map pick. That is dust two where they're going to be starting on the T side of things. Mi wasn't a map that you were highlighting as where you've seen too much"
+    },
+    {
+      "round_num": 4,
+      "tick_start": 21936,
+      "tick_end": 23856,
+      "bucket": "vague",
+      "specific_hits": [
+        "entry"
+      ],
+      "structurally_flat": true,
+      "text": "a change from that T side. Do you expect any uh differences to be played out today? >> You have to because the last two times the teams face off against each other, it was Falcons that got the better of team Spirit. I [music] feel like Donk in terms of being an entry on this map sometimes just thrown to the wolves"
+    },
+    {
+      "round_num": 4,
+      "tick_start": 23856,
+      "tick_end": 25776,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "in terms of swinging off of CAD first guy going spacing isn't always the best. I feel like he's got to tighten up and that's sort of what we've been actually seeing here so far at Budapest. The fact that Donk just looks like he's a little bit more in the unit. There was the interview coming into the tournament about how he"
+    },
+    {
+      "round_num": 4,
+      "tick_start": 25776,
+      "tick_end": 27696,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "wants to be a little bit more of a team player. He's still going first a lot, don't get me wrong, but I feel like maybe there's a moment of hesitation. He's waiting a a heartbeat or two so that everybody can catch up with him so that he's in the pack so that they're a little bit more gloop grouped up so that the individuals"
+    },
+    {
+      "round_num": 4,
+      "tick_start": 27696,
+      "tick_end": 29616,
+      "bucket": "tactical",
+      "specific_hits": [
+        "rifles",
+        "short",
+        "control",
+        "holding"
+      ],
+      "structurally_flat": false,
+      "text": "from Falcons if they swing into an oncoming spirit horde it is in fact three rifles trained onto the angle. >> Yeah, I think on this map the key point of interest for me is short control. I think that Falcons they're great at kind of obtaining it, holding it. Nico likes to play there"
+    },
+    {
+      "round_num": 4,
+      "tick_start": 29616,
+      "tick_end": 31536,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "with double H kind of chip damage into donk. Moni is constantly a [music] threat on that short side and unlike other opers, he doesn't actually play mid that often on CT mid. He actually prefers to play on the ramp. Make sure"
+    },
+    {
+      "round_num": 4,
+      "tick_start": 31536,
+      "tick_end": 33456,
       "bucket": "tactical",
       "specific_hits": [
         "smokes",
-        "double",
+        "short",
+        "short"
+      ],
+      "structurally_flat": true,
+      "text": "that short is kind of shut down. And that's the key cuz Spirit their comfort call is swinging off short. It is using those two smokes and having their star players actually get just get good aim duals. Uh but Falcons have been excellent at"
+    },
+    {
+      "round_num": 5,
+      "tick_start": 33456,
+      "tick_end": 35376,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "chutting spirit down and that in the past. Yeah, it's kind of why it was a not not a weird one that Spirit picked in this, but it's not a risky play uh in terms of what we're coming in with with their choice, right? >> It's just what any simulator would have said is their pick. It's what they just pick the most often if they have the first"
+    },
+    {
+      "round_num": 5,
+      "tick_start": 35376,
+      "tick_end": 37296,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "choice here in in a veto. So, a little bit of a to me just playing to their comforts and hopefully they change more even on the CT side too because the last time these two teams faced off against each other. I was surprised that it felt like the most mobile person on the map was Chopper because I'm used to"
+    },
+    {
+      "round_num": 5,
+      "tick_start": 37296,
+      "tick_end": 39216,
+      "bucket": "tactical",
+      "specific_hits": [
+        "tunnels",
+        "long",
+        "mid"
+      ],
+      "structurally_flat": false,
+      "text": "seeing last year Donk just choose his own number every single round whether he's going long under pass going pushing B tunnels but I feel like the last couple times he's just been kind of stuck in the mid2 area and so when it comes to a major and a major quarterfinal where you're a map up"
+    },
+    {
+      "round_num": 5,
+      "tick_start": 39216,
+      "tick_end": 41136,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "I want to see a little bit more freedom from Donk but not only him but Shirou too I want to see him get a little bit more mobile cuz almost like how Devilwok talked about Monosy sometimes he just kind of relegates himself to that ace defense side instead of getting a little bit more proactive or tricking opponents with"
+    },
+    {
+      "round_num": 6,
+      "tick_start": 41136,
+      "tick_end": 43056,
+      "bucket": "tactical",
+      "specific_hits": [
+        "tunnels",
+        "double"
+      ],
+      "structurally_flat": false,
+      "text": "a B peak or an under or a tunnels >> Yeah, I I completely agree. But we've seen at this major Donk has taken over games. He's played that maybe he's even picked up a double OP for this spirit side. Uh and they are versatile. They have a lot of new stuff."
+    },
+    {
+      "round_num": 6,
+      "tick_start": 43056,
+      "tick_end": 44976,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "You could make comparison to the last best of freeze which I will keep doing because they are very very relevant in this matchup. We've seen two different styles of spirit. They tested themselves in the last best of three, went for more B executes, went for more long takes,"
+    },
+    {
+      "round_num": 7,
+      "tick_start": 44976,
+      "tick_end": 46896,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "and I think that that is kind of the key. They want to get Falcons off that short control, make sure they pack themselves towards the side so they get freed up to to to work with the map control that they receive. >> A lot of eyes obviously uh for very good reason going to be on Nico coming into this"
+    },
+    {
+      "round_num": 7,
+      "tick_start": 46896,
+      "tick_end": 48816,
+      "bucket": "tactical",
+      "specific_hits": [
+        "upper",
         "ct"
       ],
-      "t_vod": 2946.4,
-      "text": "idea is very simple, but it builds off of what we've seen out of Falcons so far. Their affinity for the B The double smokes out middle just to make sure that nobody moves or best case somebody comes from CT over towards B."
+      "structurally_flat": true,
+      "text": "one. Has much changed in terms of the sacrifices in some of the roles and positions he's had to give up for Kiuk coming on to this particular >> on the T sub. Yes, 100%. I wouldn't say there's any change on the CT side mostly for Nico, but on T side, he's the upper dark player. And the amount"
+    },
+    {
+      "round_num": 7,
+      "tick_start": 48816,
+      "tick_end": 50736,
+      "bucket": "tactical",
+      "specific_hits": [
+        "upper",
+        "control"
+      ],
+      "structurally_flat": true,
+      "text": "of possibilities and opportunities you get as the upper B dark player is literally like zero. >> It's just if they push you, >> yes, you're essentially just like a placeholder to make sure that you keep that map control. We've seen them switch it"
+    },
+    {
+      "round_num": 7,
+      "tick_start": 50736,
+      "tick_end": 52656,
+      "bucket": "tactical",
+      "specific_hits": [
+        "lower",
+        "short",
+        "control",
+        "mid",
+        "control",
+        "default"
+      ],
+      "structurally_flat": false,
+      "text": "switch it up a little bit more. He kind of follows Kyosuki into that lower area space a little bit more and kind of helps them, guides them to that short control and mid control, but there isn't really that much that he has to do in a default scenario. >> Maui, we"
+    },
+    {
+      "round_num": 7,
+      "tick_start": 52656,
+      "tick_end": 54576,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "were going with Falcons prior to this series kicking off. This is your chance to have a bit of a flip-flop, but do you think it ends in two here? >> Ah jeez, I don't I I don't flip-flop. I don't flip-flop for I'll stick with the Falcons in this one. I thought"
+    },
+    {
+      "round_num": 8,
+      "tick_start": 54576,
+      "tick_end": 56496,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "that they were going to be the favorites going into Dust 2 and Ancient. I am surprised by the fact that Spirit was able to take away Nuke so handily, but I think after this map we get a 1-1. >> Well, handshakes are being cemented, which means one thing and one thing only. Nine times have Nico"
+    },
+    {
+      "round_num": 8,
+      "tick_start": 56496,
+      "tick_end": 58416,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "and Monosy bested Shirou and Donk. Does it end on the 10th, >> Freya? It feels like it may end on the 10th because it feels like it barely got started in that last map of Nuke. We need to see a total turnaround of the Falcons"
+    },
+    {
+      "round_num": 8,
+      "tick_start": 58416,
+      "tick_end": 60336,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "right here, right now or Budapest, your fourth quarterfinal is dead on arrival. >> Yeah, what we hear in the crowd is it's people care more about Falcon. We saw more fans, more booze, but everybody wants to know what Falcons are going to do here. They cannot skate by"
+    },
+    {
+      "round_num": 8,
+      "tick_start": 60336,
+      "tick_end": 62256,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "this result. It must be better on Dustu than it was on Nuke. It has to be. >> That first map was an absolute nonfactor. Everything goes to perfection for Team Spirit. I feel like even Spirit wanted more. They"
+    },
+    {
+      "round_num": 8,
+      "tick_start": 62256,
+      "tick_end": 64176,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "spawn",
+        "ct"
+      ],
+      "structurally_flat": true,
+      "text": "signed up for a fight in this first game of playoffs. They didn't even get an ounce of it. We get Smoke over top for this Ahit. Three players behind that. They're going to go trickling down into the CT spawn. Successful with the entries as Don P250. There's no fight"
+    },
+    {
+      "round_num": 9,
+      "tick_start": 64176,
+      "tick_end": 66096,
+      "bucket": "vague",
+      "specific_hits": [
+        "plant"
+      ],
+      "structurally_flat": true,
+      "text": "in the Falcons defense. There's no resistance for this bomb plant. It is more of what we had on Nuke, folks. It's going to be a lot to talk about on this on this game and this game plan and obviously after watching Zay play his best CS ever, it makes things a little more interesting."
+    },
+    {
+      "round_num": 9,
+      "tick_start": 66096,
+      "tick_end": 68016,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "But here it's T-side start for Spirit. Retakes coming in full >> Just leaning back and allowing Falcons to sprint out into the open. That's three players full display. It's a shooting gallery and it's a slaughter. Falcons will find nothing in the pistol."
+    },
+    {
+      "round_num": 9,
+      "tick_start": 68016,
+      "tick_end": 69936,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": ">> Spirit do this quiet crawl up cat. It's door smoked. It's no vision. So, of course, they could have done that. Spirit will do that on rifle rounds, too. So, it's not just a pistol that they've just tried this on. And you can see that Nico tried to pull out a base setup, double boost. That's not"
+    },
+    {
+      "round_num": 9,
+      "tick_start": 69936,
+      "tick_end": 71856,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "something that you see very often. Um, honestly, ever. And he has a chance to get a couple of shots, but once those are missed, like it's over. And Teslas doesn't pick anything up either. He needed to get two in place of Nico's none. Nico's coming off a bad map himself. And"
+    },
+    {
+      "round_num": 9,
+      "tick_start": 71856,
+      "tick_end": 73776,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "again, it's not something that I'm personally going to skate by. It's a major. It's a quarterfinal. It's a good matchup for them. It's everything in place to make this one a worthwhile run. Everything could be a total disaster in the next 30 minutes if they don't turn this ship around quickly. But last map they won a pistol"
+    },
+    {
+      "round_num": 9,
+      "tick_start": 73776,
+      "tick_end": 75696,
+      "bucket": "tactical",
+      "specific_hits": [
+        "eco",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": "and a conversion and then they quickly fell off. Team Spirit start off now one up. Need an eco here. Forced down win for Falcons. Something to swing the momentum back. And that's the other that's the other that's the you know is there's double-edged swords two-sided swords. Falcons"
+    },
+    {
+      "round_num": 10,
+      "tick_start": 75696,
+      "tick_end": 77616,
+      "bucket": "tactical",
+      "specific_hits": [
+        "deagle",
+        "scout",
+        "force"
+      ],
+      "structurally_flat": true,
+      "text": "when they don't if the game plan's a little bit fishy. Well, they have the eos that they can pull out. It's the deagle players. It's the scout players. That's part of what makes this team great as well. Sometimes they have to rely on those. And here's maybe a setup that looks great and has some force behind it."
+    },
+    {
+      "round_num": 10,
+      "tick_start": 77616,
+      "tick_end": 79536,
+      "bucket": "tactical",
+      "specific_hits": [
+        "utility",
+        "utility",
+        "hell",
+        "smoke",
+        "double"
+      ],
+      "structurally_flat": false,
+      "text": ">> No resistance offered up by Falcons, though. They're going to be content by the looks of things to just play in reaction to that utility. You know damn well Spirit are coming at this with the utility they need. Hell, even in the pistol, we saw that double smoke. So with a"
+    },
+    {
+      "round_num": 10,
+      "tick_start": 79536,
+      "tick_end": 81456,
+      "bucket": "tactical",
+      "specific_hits": [
+        "buy",
+        "smokes",
+        "spawn",
+        "utility",
+        "smoke",
+        "ct"
+      ],
+      "structurally_flat": false,
+      "text": "full buy behind it, what does Spirit bring to the table? Same two smokes opening for the drop down into CT spawn again. Falcons throw out that reaction wave of utility themselves. And now Monosy just looking to go head hunting. We get that Don crawl from behind the smoke shrouded by the"
+    },
+    {
+      "round_num": 10,
+      "tick_start": 81456,
+      "tick_end": 83376,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "flames. Monosy is going to sniff Sway off the play. Kyoske kills Don. And now it's going to have to be the supportive elements of Team Spirit to try to pick this up. They go down into the two versus three. Not ideal. Still the better guns. Oh, it's right there. Ta will recover."
+    },
+    {
+      "round_num": 10,
+      "tick_start": 83376,
+      "tick_end": 85296,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "Team Spirit push as they try to extend into that bomb site, but a triple kill for Taer is enough to convert it. >> They get saved by Ta. It's also good round from Donk on his entries. Another couple of entries in fact. So that's 20 to kick off. Funny"
+    },
+    {
+      "round_num": 11,
+      "tick_start": 85296,
+      "tick_end": 87216,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "because Ter gets the open door to Heroic that gets some enchant on team here. And this is one of the teams that Falcons had to that took the core from to build the team that we see before us today. Actually, you know, as much as it it does put some emphasis on Falcons"
+    },
+    {
+      "round_num": 11,
+      "tick_start": 87216,
+      "tick_end": 89136,
+      "bucket": "vague",
+      "specific_hits": [
+        "lower"
+      ],
+      "structurally_flat": false,
+      "text": "for people who are like, \"Okay, we'll make this core worth it,\" I think they went the good approach of actually trying to go go for getting a core in the first place. >> Tech 9 only here for Chopper. Hang on, we got a lower threat. And that well timed push from the USB. So, in a round, you're not expecting much"
+    },
+    {
+      "round_num": 11,
+      "tick_start": 89136,
+      "tick_end": 91056,
+      "bucket": "tactical",
+      "specific_hits": [
+        "lower",
+        "grenade",
+        "rotation"
+      ],
+      "structurally_flat": false,
+      "text": "because there isn't a lot here to work with. That threat still lingers down and lower bound out and almost dealt with both. Donk just looks to pull away here. You've got to cuz Ter sitting down on that quarter HP. A frag grenade that's a bit too late but a rotation that is well timed."
+    },
+    {
+      "round_num": 12,
+      "tick_start": 91056,
+      "tick_end": 92976,
+      "bucket": "tactical",
+      "specific_hits": [
+        "retake",
+        "spawn",
+        "lower",
+        "tunnels"
+      ],
+      "structurally_flat": true,
+      "text": "Kickan trying to lead this three player retake up from spawn. The climb over top going to catch Shirro and here. Okay, now we've got that donk 1v3 queued up early. He's still worried about that threat from lower tunnels, but we know this is the allin from Falcons."
+    },
+    {
+      "round_num": 12,
+      "tick_start": 92976,
+      "tick_end": 94896,
+      "bucket": "tactical",
+      "specific_hits": [
+        "planted",
+        "utility",
+        "defuse",
+        "back",
+        "site"
+      ],
+      "structurally_flat": true,
+      "text": "Both players having wrapped back around over towards the bomb site. Bomb clearly planted over here for Donk and he knows it. They wish they could find utility. >> Still looming around that 10-second defuse coming through. He's got him off yet, but takes off the cover. >> There we go. >> And Falcons"
+    },
+    {
+      "round_num": 12,
+      "tick_start": 94896,
+      "tick_end": 96816,
+      "bucket": "tactical",
+      "specific_hits": [
+        "tunnels",
+        "pinch",
+        "tunnels",
+        "peek",
+        "lower"
+      ],
+      "structurally_flat": true,
+      "text": "pull a round out of the hat when they have no business winning. That was just everybody on the same page with a welltimed tunnels pinch. >> That's beautiful. I mean, they take over tunnels. Chopper gets punished for taking a peek into lower when he's only got that tech 9 out. Doesn't"
+    },
+    {
+      "round_num": 12,
+      "tick_start": 96816,
+      "tick_end": 98736,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "get his kill. And what does this do since Shiro pureetting they they narrowly avoided this"
+    },
+    {
+      "round_num": 12,
+      "tick_start": 98736,
+      "tick_end": 100656,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "result last round to 2K on the ramp. But now it happens. Falcons have even less to work with. It's ideas that win this round for Falcons. They get them into the game >> Alli a little frustrated. Gets that timeout. Wants to talk instantly. No, that's twice now. >> Whoa. Bush's got the off"
+    },
+    {
+      "round_num": 12,
+      "tick_start": 100656,
+      "tick_end": 102576,
+      "bucket": "tactical",
+      "specific_hits": [
+        "money",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": "instantly. >> they got money for that. >> Back on Nuke when we saw that seven round streak come out from Spirit. They lose one at the tail end. Instant pause called by Howie. Same thing's going to come out here. He really is one of those kind of coaches that wants to get in the moment he spots something wrong. >> Yeah. Well, at least"
+    },
+    {
+      "round_num": 12,
+      "tick_start": 102576,
+      "tick_end": 104496,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "there's one coach calling pauses right now. We didn't get a lot of responses from Falcons in that regard. They definitely needed it last >> It, you know, to be fair, it was hard to figure out exactly when it was too late, like when it was too wrong. >> Game was sort of just falling apart so quickly. Maybe it didn't even really feel like it,"
+    },
+    {
+      "round_num": 13,
+      "tick_start": 104496,
+      "tick_end": 106416,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "but >> I feel like when you've got three pauses though, you can take one when it maybe isn't the perfect moment. >> Clearly things are going wrong with the seven round streak, but clearly things could change here on Dust. We were hoping for an early answer out of Falcons, and it seems like we've got one. Again,"
+    },
+    {
+      "round_num": 13,
+      "tick_start": 106416,
+      "tick_end": 108336,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": ">> mostly USPS in that one round prior. You mentioned that OP that Shirou comes into the round with, so that was a big investment to go for the long fight nets them nothing to this free kill for Falcons. There's only one player on Spirit that caught Nope. So far, this major, I'd like to see"
+    },
+    {
+      "round_num": 13,
+      "tick_start": 108336,
+      "tick_end": 110256,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "him use the gun. >> You know, I don't even think we said Shirou's name back in map one. >> Wasn't even necessary. >> Yeah, they didn't even push him. They didn't push him hard enough to get there. Yeah, >> but uh this is a very good kill for Falcons. They take Shira out. This is a huge threat."
+    },
+    {
+      "round_num": 13,
+      "tick_start": 110256,
+      "tick_end": 112176,
+      "bucket": "tactical",
+      "specific_hits": [
+        "lower",
+        "doors",
+        "hold",
+        "mid"
+      ],
+      "structurally_flat": true,
+      "text": "They're probably like, how does he even have an off right now? This angle's being held by Monosy, so you got to be careful with that walk out middle. Not to mention Nico pressing himself into the cat hold. Monosy gives up his lower spot. There's that slight gap out mid doors right"
+    },
+    {
+      "round_num": 13,
+      "tick_start": 112176,
+      "tick_end": 114096,
+      "bucket": "tactical",
+      "specific_hits": [
+        "flash",
+        "grenades",
+        "grenades"
+      ],
+      "structurally_flat": false,
+      "text": "now, but Team Spirit aren't capitalizing on it. Good flash in. Monosy supporting Nico. And that's Don >> This is one of my favorite positions to watch Nico in. I think there's almost no one. I don't think there's anyone better at timing grenades, placing grenades from"
+    },
+    {
+      "round_num": 13,
+      "tick_start": 114096,
+      "tick_end": 116016,
+      "bucket": "tactical",
+      "specific_hits": [
+        "spawn",
+        "catwalk",
+        "split",
+        "ct",
+        "holding",
+        "long",
+        "save"
+      ],
+      "structurally_flat": false,
+      "text": "CT spawn to cat. >> Yeah, he's holding a little wide there. >> Just a little tease from the catwalk. 30 seconds. There's a chance Ze tries to come in with the split. It's him versus Tess queued up over towards Long. There's also a lot to save here in this"
+    },
+    {
+      "round_num": 13,
+      "tick_start": 116016,
+      "tick_end": 117936,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": ">> It's a good point. I don't It doesn't seem like they're going to try this that the OP in play and >> walk away. Huh. >> It's the smart idea. It's not the most fun to watch, but especially with the OP, which again, such a surprise to pull out after losing that last round."
+    },
+    {
+      "round_num": 14,
+      "tick_start": 117936,
+      "tick_end": 119856,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": ">> So, they go for two pick plays. They get shut downs. Falcons stabilize here in round four. Terrorists win. you know, up against G2 in that stage three two- two match, we had a lot of X factor coming out of Monosy."
+    },
+    {
+      "round_num": 14,
+      "tick_start": 119856,
+      "tick_end": 121776,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "Uh just, you know, those bogus moments, the Xactor plays. And I think that a round like that early on this one could definitely tap you right back into that not so far gone memory. You know, Nuke, they didn't even fight."
+    },
+    {
+      "round_num": 14,
+      "tick_start": 121776,
+      "tick_end": 123696,
+      "bucket": "tactical",
+      "specific_hits": [
+        "force",
+        "pick"
+      ],
+      "structurally_flat": false,
+      "text": ">> No, they didn't. They limped into that server, took their whooping, and hope now to steal away Team Spirit's map pick. And I think the confidence earned in that first map is why Team Spirit came in with another force. That off immediately for"
+    },
+    {
+      "round_num": 14,
+      "tick_start": 123696,
+      "tick_end": 125616,
+      "bucket": "tactical",
+      "specific_hits": [
+        "buy",
+        "boost"
+      ],
+      "structurally_flat": false,
+      "text": "Shirro. We'll see if they can get anything going with it this time. It's a pretty comparable buy to the one round prior. >> And Monosy floating on his own right >> Never seen anyone actually get punished off that jump spot or the boost that they're going to assemble. It always comes in a little later and uh by the time it it gets set up, CT's"
+    },
+    {
+      "round_num": 14,
+      "tick_start": 125616,
+      "tick_end": 127536,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "already worried about a mid crawl down. There doesn't necessarily need to be a next move here for Falcons. It really is on Spirit to be like, \"All right, here here's how this is going to go.\" We see there's"
+    },
+    {
+      "round_num": 14,
+      "tick_start": 127536,
+      "tick_end": 129456,
+      "bucket": "vague",
+      "specific_hits": [
+        "flash"
+      ],
+      "structurally_flat": true,
+      "text": "three pistols for them to use. >> It's open space to be taken. Better be careful if Don finds a head shot here. Then >> watch for Nico's nes. >> There's going to be a flood of players right behind it. He'll get through the edge of that flash. Mony good"
+    },
+    {
+      "round_num": 15,
+      "tick_start": 129456,
+      "tick_end": 131376,
+      "bucket": "vague",
+      "specific_hits": [
+        "spawn"
+      ],
+      "structurally_flat": false,
+      "text": "first shot. Nico emerging up from spawn as Monosy's going to clip a second. And there's Nico's head shot. The total stoppage of the cap push. Two frags between Nico and Mosy is right where you want the Falcons if you're hoping for a competitive quarterfinal. >> Yeah, already so much better. This is the kind"
+    },
+    {
+      "round_num": 15,
+      "tick_start": 131376,
+      "tick_end": 133296,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "of CS that's going to get us to a map three for Falcons. He's got he's got really good rhythm on this map and it's it's the place where you can overfill versus mid and A. So you get lots of kills, but you only put"
+    },
+    {
+      "round_num": 15,
+      "tick_start": 133296,
+      "tick_end": 135216,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "your best players there, your smartest And I think that's where Nico shows off the most sometimes. >> So between him and Monosy, that's a lock Not even past the doormat on Cat. Yes,"
+    },
+    {
+      "round_num": 16,
+      "tick_start": 135216,
+      "tick_end": 137136,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "It's a glimmer of hope for the Falcons No missed opportunity here by Monosy. Nico even being brave to walk up through those fires"
+    },
+    {
+      "round_num": 16,
+      "tick_start": 137136,
+      "tick_end": 139056,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "just to make sure he's a part of the solution. Here's your reward. Falcons not only sitting pretty 3-2 early on dust two, but versus pistols. And again, honesty in with the Starting to find I think his groove,"
+    },
+    {
+      "round_num": 16,
+      "tick_start": 139056,
+      "tick_end": 140976,
+      "bucket": "vague",
+      "specific_hits": [
+        "smoke"
+      ],
+      "structurally_flat": true,
+      "text": "his game. And Kyoske just tapped Chopper off of top through a smoke. Whether they opened it, we'll see. This is a strong one for the Falcons. So it seems >> be sight. This gets a little bit weird. >> Snow bomb. Ter"
+    },
+    {
+      "round_num": 16,
+      "tick_start": 140976,
+      "tick_end": 142896,
+      "bucket": "tactical",
+      "specific_hits": [
+        "doors",
+        "deagle",
+        "utility",
+        "mid"
+      ],
+      "structurally_flat": false,
+      "text": "has that over towards the mid doors. But you give Donk a lifeline. >> He doesn't even want to switch. He's got this deagle out. Yeah, why would he? That first shot right between the eyes. Eliciting the utility here for the Falcons who don't know where that bomb actually sits."
+    },
+    {
+      "round_num": 16,
+      "tick_start": 142896,
+      "tick_end": 144816,
+      "bucket": "tactical",
+      "specific_hits": [
+        "utility",
+        "rotation",
+        "long",
+        "back",
+        "site"
+      ],
+      "structurally_flat": false,
+      "text": "And we'll see Shirou start to push out long Dors simultaneous as Don still just avoiding the utility, taking all of this attention. And then that fight over towards Long's going to start to draw Falcons back. There is a world where they miss their rotation, but Kyoske's got this B site under lock and Along"
+    },
+    {
+      "round_num": 16,
+      "tick_start": 144816,
+      "tick_end": 146736,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "also held. There it is. >> A couple of head shots here from Kyoske. That bodess well for the Falcons putting down Team Spirit's hopes with just those >> It's a nice entrance from Donk and amounted to having a termite in the floorboards there. It was a little bit annoying. They eventually could deal"
+    },
+    {
+      "round_num": 17,
+      "tick_start": 146736,
+      "tick_end": 148656,
+      "bucket": "vague",
+      "specific_hits": [
+        "plant"
+      ],
+      "structurally_flat": true,
+      "text": "with it. Uh but no issue. No bomb plant with the opening kill from Monosy. Him getting into the flow of things too. That's nice. But this isn't a full investment round for Team Spirit."
+    },
+    {
+      "round_num": 17,
+      "tick_start": 148656,
+      "tick_end": 150576,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "I think the odds from our partner were something like 6-1 at the start of this just off of the confident map one win. Spirit still hanging on to it, but it feels like the room can feel the shift. It's early"
+    },
+    {
+      "round_num": 17,
+      "tick_start": 150576,
+      "tick_end": 152496,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "days and there's plenty of times for Falcons to fumble. Don't get that wrong. But after Nuke, it felt like they may not even give us a pulse in this Fight towards door again."
+    },
+    {
+      "round_num": 17,
+      "tick_start": 152496,
+      "tick_end": 154416,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "This has been something that's been going the Falcon's way each and every time. We've seen Monosy start rounds, but for the time being, he'll sit on it and just >> Oh, just all the way out, man. No, they're not even going to test them. But right now, I mean, they got the map cracked. If this ends"
+    },
+    {
+      "round_num": 18,
+      "tick_start": 154416,
+      "tick_end": 156336,
+      "bucket": "tactical",
+      "specific_hits": [
+        "split",
+        "mid",
+        "mid"
+      ],
+      "structurally_flat": true,
+      "text": "up being a mid B, this is going to be uh little blood on the hands of of the of this Falcon setup. I mean, this is a huge link. I >> there's activity from Tess, though. >> This is a full B mid B split coming in. Kickan probably the one saying, \"Hey,"
+    },
+    {
+      "round_num": 18,
+      "tick_start": 156336,
+      "tick_end": 158256,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "flank",
+        "ramp",
+        "trade"
+      ],
+      "structurally_flat": true,
+      "text": "leave me alone. I got it. It's fine.\" And uh >> what's that? >> I don't know. >> Team Spirit drop a smoke out middle and that's not going to block off Monosy's angle from ramp and then cues up Tess on the flank. >> Okay, but >> it's a much needed trade out of Shiro at least. But, you know, the plan has been found"
+    },
+    {
+      "round_num": 18,
+      "tick_start": 158256,
+      "tick_end": 160176,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "hell",
+        "mid"
+      ],
+      "structurally_flat": false,
+      "text": "out. This is interesting though because I still don't know there was three here. But it's it's Nico who's actually changing it up. He's going to be walking over towards B. But I >> mean all while you stare at this smoke if you're the Falcons you're thinking what the hell is this? >> Right. Here's Don's kryptonite versus Donk out mid. >> It's a 1v one"
+    },
+    {
+      "round_num": 18,
+      "tick_start": 160176,
+      "tick_end": 162096,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "locked in as everybody else from Spirit just look to test >> There's only 15 seconds actually. Spirit >> got to get this going. That bomb sits amidst this three player pack down to 10 seconds. Nico's got his helping hands into the B site. kicks in from the corner. He's got the element of surprise and this"
+    },
+    {
+      "round_num": 19,
+      "tick_start": 162096,
+      "tick_end": 164016,
+      "bucket": "vague",
+      "specific_hits": [
+        "split"
+      ],
+      "structurally_flat": false,
+      "text": "is Spirit absolutely owned. >> What was that? >> Falling to the clock and a singular kill here for Team Spirit. >> I mean, you don't have to split Adams to figure out how to do a Bplit on time. That was really strange out of Spirit. Suddenly looking like Falcons"
+    },
+    {
+      "round_num": 19,
+      "tick_start": 164016,
+      "tick_end": 165936,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "smoke",
+        "split",
+        "back",
+        "mid",
+        "mid"
+      ],
+      "structurally_flat": true,
+      "text": "fell back on Duke here early into the half. >> Got in that miss smoke in middle as >> Yeah, this was a layup actually. I mean, they had Kickan alone. They were about to mid B. They missed the mid B smoke presumably. They don't get their kills in time. They could have just continued with the split anyways. And"
+    },
+    {
+      "round_num": 19,
+      "tick_start": 165936,
+      "tick_end": 167856,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "actually, he still had a pretty good shot of getting that. Donk had lots of time to take out Nico. Instead, Don is not really useful. He's there waiting in mid. His teammates are entering too slowly because usually Donk makes a mile of space for them within a moment. >> It's not"
+    },
+    {
+      "round_num": 20,
+      "tick_start": 167856,
+      "tick_end": 169776,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "as easy without Donk at the tip of the spear. You kind of don't want to tell Falcons that you're feeling it, too. Especially not after you're"
+    },
+    {
+      "round_num": 20,
+      "tick_start": 169776,
+      "tick_end": 171696,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "the team to have the first word back on Nuke. But this is what it is. It is the major. We'll see it in moments like that. Mid"
+    },
+    {
+      "round_num": 20,
+      "tick_start": 171696,
+      "tick_end": 173616,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "smoke",
+        "grenades"
+      ],
+      "structurally_flat": false,
+      "text": "smoke goes down. Still a trio of smoke grenades here for Team Spirit as well. So, we'll see what Spirit want to play with in the end. Perhaps a bit"
+    },
+    {
+      "round_num": 20,
+      "tick_start": 173616,
+      "tick_end": 175536,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smokes",
+        "back",
+        "long"
+      ],
+      "structurally_flat": false,
+      "text": "of misdirection. 45 seconds and Mon's off gets pulled back to the corner. If you're going to take a long to do your defaults on Dusty, you got to justify it. >> Going to have to come out as these smokes fly with"
+    },
+    {
+      "round_num": 20,
+      "tick_start": 175536,
+      "tick_end": 177456,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "smoke",
+        "window",
+        "mid"
+      ],
+      "structurally_flat": true,
+      "text": "Tech 9's. Smoke goes down towards middle. Sway's trying to play ahead of that. Kickstand's on the edge of the window to take a look at mid, but you can start to see the aid of Vinder's also worried. And that's where Don comes through on the edge of the smoke with the frag on Monosy. It's just pistols. I retrievable gun as well."
+    },
+    {
+      "round_num": 21,
+      "tick_start": 177456,
+      "tick_end": 179376,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "So why would Falcons lose this, you think? Good rifle work between these eight defenders, but just enough pistol prowess for Team Spirit to put that bomb down. Now we're talking about guns. Don extends out, picks it up, denies Tess the attempt at a distance"
+    },
+    {
+      "round_num": 21,
+      "tick_start": 179376,
+      "tick_end": 181296,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "in with another head shot. That's a triple. That is Donk. And that is what happens if the Falcons give them just enough >> It's like driving a Prius in front of a monster truck. Donk absolutely dumpstered them."
+    },
+    {
+      "round_num": 21,
+      "tick_start": 181296,
+      "tick_end": 183216,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "And now Hi just gets involved. He's here to pill momentum off the back of an X Factor play. We're seeing Zonic talk too. This is an aberration from Spirit. It felt like they were totally absent-minded last round. Suddenly they get this out of donk. And he's the one guy who's never sleepy."
+    },
+    {
+      "round_num": 21,
+      "tick_start": 183216,
+      "tick_end": 185136,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "He's the one guy who will just no matter what. Give you mo those moments over and over again. >> He's the guy who has impossible stats and impossible rounds in the biggest >> One small mistake and that's Nico using all his ammo. That's Monosy taking one shot at nothing"
+    },
+    {
+      "round_num": 22,
+      "tick_start": 185136,
+      "tick_end": 187056,
+      "bucket": "tactical",
+      "specific_hits": [
+        "retake",
+        "cross",
+        "ramp",
+        "ramp"
+      ],
+      "structurally_flat": true,
+      "text": "and then it allowed Donk to cross and get a 4k terrorist win. >> Also, Don just getting enough damage on Tess as he tries to snap that M4 down on the ramp retake as Well, I mean, Falcons did a good job of trying to time that fight to the top of ramp, but yeah,"
+    },
+    {
+      "round_num": 22,
+      "tick_start": 187056,
+      "tick_end": 188976,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "that's the donk effect, folks. >> Don't let that be the way in. Kyoske on an up. Love to see it. >> At least this time it is that instant timeout from Sonic, but you also open the door for Howie, like you said, to pile on."
+    },
+    {
+      "round_num": 22,
+      "tick_start": 188976,
+      "tick_end": 190896,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": ">> If you're going to save timeouts for moments like that, I think that makes >> And maybe if you're playing versus Don, you know they're going to come. So if you don't get three and a half anyways, you were never going to win. So"
+    },
+    {
+      "round_num": 22,
+      "tick_start": 190896,
+      "tick_end": 192816,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "that's a reminder to the Falcons as to what is up against them tonight. The mental game, that's everything."
+    },
+    {
+      "round_num": 22,
+      "tick_start": 192816,
+      "tick_end": 194736,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "Felt spirits wrath on Nuke. There's no denying that this dust tier game is probably already starting to feel better, but if you're not careful, Team Spirit will break through the CT side, put you back down into the saves, and even maybe"
+    },
+    {
+      "round_num": 23,
+      "tick_start": 194736,
+      "tick_end": 196656,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "back",
+        "info"
+      ],
+      "structurally_flat": true,
+      "text": "run away with a lead. So, we are at a critical turning point for >> That's such a big smoke break or block from Nico. He can watch it from so far back. They just have guaranteed info. So, that is guarded for the moment. >> I think Nico being a part of this a defense makes"
+    },
+    {
+      "round_num": 23,
+      "tick_start": 196656,
+      "tick_end": 198576,
+      "bucket": "tactical",
+      "specific_hits": [
+        "utility",
+        "flash"
+      ],
+      "structurally_flat": true,
+      "text": "sense, right? I mean, that's the last round that Monosy misses his shot. The last round was so expensive though. He doesn't have the utility. He doesn't have the HS to actually punish the cat play. >> It's going to have to be fire power. >> Kept so much cash though. Still flash by Tess. Point blank spray down. I mean that is"
+    },
+    {
+      "round_num": 23,
+      "tick_start": 198576,
+      "tick_end": 200496,
+      "bucket": "tactical",
+      "specific_hits": [
+        "flashes",
+        "cross",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": ">> so good. >> Flashes fantastic. Now this monosy Nico goes down with nothing. Shirou's killed kicks in on the cross back from B. Nico wants to be the hero but there's players all around him. >> Tactics do not get better than that. Shirou exactly calling out Tazas's"
+    },
+    {
+      "round_num": 23,
+      "tick_start": 200496,
+      "tick_end": 202416,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "flashes",
+        "peeking",
+        "smoke"
+      ],
+      "structurally_flat": false,
+      "text": "position inside of the smoke. Both flashes hitting >> to perfection. >> By the way, Ter not peeking off the first one because Tessus has no other targets. If he holds mouse one down, he still dies. He still gets that kill versus Ter. >> And you saw how close Tess is on that smoke as well. Feels like if you try to break through"
+    },
+    {
+      "round_num": 24,
+      "tick_start": 202416,
+      "tick_end": 204336,
+      "bucket": "tactical",
+      "specific_hits": [
+        "flash",
+        "awp",
+        "save"
+      ],
+      "structurally_flat": true,
+      "text": "on the flash, there's no way you don't get mowed down. >> It was a call out, a counter play. >> That's the pause. >> There you have it. >> That's the pause. >> Both coaches taught at the same time. Kyoske not going to be able to save that AWP."
+    },
+    {
+      "round_num": 24,
+      "tick_start": 204336,
+      "tick_end": 206256,
+      "bucket": "tactical",
+      "specific_hits": [
+        "money",
+        "catwalk",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": "So, Team Spirit cut that lead down to one. Now, Falcons did have a lot of money still left over. The buys are inbound, but it feels like so is Donk. 14 kills, six deaths, critical entries off of that catwalk. You know, we go back to Nuke, we talk about Sway's most impactful map"
+    },
+    {
+      "round_num": 25,
+      "tick_start": 206256,
+      "tick_end": 208176,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "of his career, and he deserves his flowers there. But now we're back to what works for Spirit versus so many other teams. Just Don at the top of the board, damn near doing it on his own. >> That was so sexy, man. out of out of team spirit right there."
+    },
+    {
+      "round_num": 25,
+      "tick_start": 208176,
+      "tick_end": 210096,
+      "bucket": "tactical",
+      "specific_hits": [
+        "money",
+        "utility"
+      ],
+      "structurally_flat": true,
+      "text": "Shirou's timing, Ter's patience and composure and uh well, they turn water into wine right >> It's $2,900 left by Nico. >> The other the other half of that though is because they won with that tempo. Falas didn't have the money to stop the they didn't give Nico the utility to allow him to stop"
+    },
+    {
+      "round_num": 25,
+      "tick_start": 210096,
+      "tick_end": 212016,
+      "bucket": "vague",
+      "specific_hits": [
+        "money",
+        "money"
+      ],
+      "structurally_flat": true,
+      "text": "that cat push on the other side of it. They could lose one player and still survive, but >> instead it's a board wipe >> cuz he had like $7,000 still. Maybe he dropped and that's why Oh, he had that money left over. >> So much money still for Falcons. They had"
+    },
+    {
+      "round_num": 25,
+      "tick_start": 212016,
+      "tick_end": 213936,
+      "bucket": "tactical",
+      "specific_hits": [
+        "economy",
+        "utility",
+        "spawn",
+        "tunnels",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": "full cash, full economy. >> That's actually strange. Didn't get back to his utility at spawn. Monosy, nice >> That's what we're talking about. Falcons making an active move into the tunnels. And that's a total reposition of Monosy as well. So, you never expect it if you're Spirit. Those flashbangs find Spirit"
+    },
+    {
+      "round_num": 25,
+      "tick_start": 213936,
+      "tick_end": 215856,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "grenades",
+        "duel",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": "lingering out through those smoke grenades, but they do jump back into their coverage. That is Shirou finding the head-to-head duel over Monosy. It's one OP kill per team so far in the 10th. 50 seconds to this clock. >> Taking out Monosy. You really want to go cat now."
+    },
+    {
+      "round_num": 25,
+      "tick_start": 215856,
+      "tick_end": 217776,
+      "bucket": "tactical",
+      "specific_hits": [
+        "flash",
+        "utility"
+      ],
+      "structurally_flat": true,
+      "text": "Doesn't matter how many CTs are here. They know there's no OP on the >> It's four strong for Spirit. Nico >> waiting for the flash. Waiting for the utility to come over top. Waiting for some chance of a moment. And instead, Donk is ready for that challenge. Kos's got the head shot onto Shirro. Oopper down."
+    },
+    {
+      "round_num": 26,
+      "tick_start": 217776,
+      "tick_end": 219696,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "And this M4 still challenges, but Donk has got his number. >> Yeah, there threats everywhere. Donk with 21 HP picks up another kill to walk back for Kickan. No chance to defend this. They cover from Shirou. And I I honestly think, you know, we've seen"
+    },
+    {
+      "round_num": 26,
+      "tick_start": 219696,
+      "tick_end": 221616,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "great moments from Monosy in all the headto-heads versus Team Spirit. The fact that he can peak into Shirou, take him out constantly is actually one of the things no other oper. And this is just a key find."
+    },
+    {
+      "round_num": 26,
+      "tick_start": 221616,
+      "tick_end": 223536,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "We've seen that replay, right? The shadow advantage like Monosy just kind of letting Shirou know it's inbound. >> Down goes Kickan. So, no save allowed. Triple kill here for Donk. >> And"
+    },
+    {
+      "round_num": 26,
+      "tick_start": 223536,
+      "tick_end": 225456,
+      "bucket": "tactical",
+      "specific_hits": [
+        "flashes",
+        "back",
+        "mid",
+        "mid",
+        "long"
+      ],
+      "structurally_flat": false,
+      "text": "Team Spirit do seize that moment to tie this game at five. >> They kept trying to earn back their peak to be fair with the flashes when they're coming into mid cuz you can peak left side mid as long as you, you know, throw something to try to make sure that you can get on the line"
+    },
+    {
+      "round_num": 26,
+      "tick_start": 225456,
+      "tick_end": 227376,
+      "bucket": "tactical",
+      "specific_hits": [
+        "flash",
+        "back",
+        "holding"
+      ],
+      "structurally_flat": false,
+      "text": "first, right? Put the ropes on the file. But terrorists Y also set up to dodge a flash peak back into the door right before Monosy did. >> five five. It's >> a four versus five man disadvantage not holding"
+    },
+    {
+      "round_num": 27,
+      "tick_start": 227376,
+      "tick_end": 229296,
+      "bucket": "tactical",
+      "specific_hits": [
+        "peek",
+        "tunnels",
+        "force",
+        "buy",
+        "back"
+      ],
+      "structurally_flat": true,
+      "text": "Spirit back. Right. We had that Monosy book quick peek up into the tunnels. It was just nice to see something fresh from the Falcons trying to move that OP around. >> Both these teams have shown signs of nervousness and have both given up a force buy to the other. This leaves us tied at the most interesting result possible."
+    },
+    {
+      "round_num": 27,
+      "tick_start": 229296,
+      "tick_end": 231216,
+      "bucket": "tactical",
+      "specific_hits": [
+        "money",
+        "kevlar",
+        "armor"
+      ],
+      "structurally_flat": false,
+      "text": "Let's see who wins the half. keep eyes on Nico. Use that bit of extra money to come into this one with an M4 and a set of Kevlar. And Monosy, the player that's boosting him up right now, also has armor. So, in the world where Nico loses his head to this, that M4 drops into Monosy's hands. Maybe"
+    },
+    {
+      "round_num": 27,
+      "tick_start": 231216,
+      "tick_end": 233136,
+      "bucket": "tactical",
+      "specific_hits": [
+        "utility",
+        "back"
+      ],
+      "structurally_flat": false,
+      "text": "between the two, they'll find it. But instead, you've got Don dead. A welltimed peak and a great fight for Nico considering he is that hero M4. >> It's incredible amount of Val find off of just one $300 piece of utility and the M4. Sway decides to answer back over"
+    },
+    {
+      "round_num": 27,
+      "tick_start": 233136,
+      "tick_end": 235056,
+      "bucket": "tactical",
+      "specific_hits": [
+        "commitment",
+        "tunnels",
+        "doors",
+        "boost",
+        "mid"
+      ],
+      "structurally_flat": true,
+      "text": ">> this from he's still building >> trying to reposition that M4 ahead of what could have been that team spirit commitment to the tunnels bush. >> No one's reliable now versus lesser >> But I mean, you know, off of the cat boost and then into the mid doors."
+    },
+    {
+      "round_num": 28,
+      "tick_start": 235056,
+      "tick_end": 236976,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "I think that really indicates that M4 is trying to get over to the B bomb site. backs turn. Test and mod tech was confused. And so Nico sets them up and that lead will be taken right back. >> Man, I mean both teams they they they've had"
+    },
+    {
+      "round_num": 28,
+      "tick_start": 236976,
+      "tick_end": 238896,
+      "bucket": "tactical",
+      "specific_hits": [
+        "smoke",
+        "back"
+      ],
+      "structurally_flat": true,
+      "text": "moments here where they're like, \"Okay, this could have been way cleaner. We could have had a lead.\" But Falcons picking up a second round with nothing to work with. A great tactic back to Falcons this time after losing the last round. Nico amazing value with that M4 and again one smoke to"
+    },
+    {
+      "round_num": 28,
+      "tick_start": 238896,
+      "tick_end": 240816,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "make it a 5v4 and then to have Spirit look lost and wandering. [cheering] >> Not the first time either Tess gets away with that long push. >> Good to see Zonic getting involved. A lot more"
+    },
+    {
+      "round_num": 28,
+      "tick_start": 240816,
+      "tick_end": 242736,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "active here in map two. >> This is Howie letting him in, right? So, we'll see if Zonic can do what Alli did >> and Robin >> off of the opponent coach call >> the"
+    },
+    {
+      "round_num": 28,
+      "tick_start": 242736,
+      "tick_end": 244656,
+      "bucket": "vague",
+      "specific_hits": [],
+      "structurally_flat": false,
+      "text": "moment Team Spirit touched that lead, ripped back away from them. >> Don's just a title wave coming up cat though. It's really It's actually a battle of Titans right now in terms of Nico. Yeah, kills. Donk is is going insane, but at the same time, Nico's got responses. as he put himself on"
+    },
+    {
+      "round_num": 28,
+      "tick_start": 244656,
+      "tick_end": 246576,
+      "bucket": "vague",
+      "specific_hits": [
+        "eco"
+      ],
+      "structurally_flat": false,
+      "text": "a a lot of the good, you know, at those opportune moments even on that Eco playing the rest of the map very well. There's a chance to take out Shiro actually right there. >> It's a headto-head that used to be so Nico over Don."
     }
   ]
 }
