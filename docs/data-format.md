@@ -12,7 +12,8 @@ public/
 │   │   ├── meta.json                       # Demo metadata
 │   │   ├── round_01.json                   # Per-round frame data
 │   │   ├── round_02.json
-│   │   └── ...
+│   │   ├── ...
+│   │   └── commentary.json                 # Optional caster-commentary track (dormant)
 │   └── {another-demo}/
 │       └── ...
 └── maps/
@@ -168,6 +169,57 @@ Per-round frame data with downsampled player positions at each tick.
 }
 ```
 
+Per-player frame fields (`PlayerFrame`): `name`, `side` (`"CT"`/`"T"`), `x`, `y`, `z`, `hp`, `alive`, and optional `yaw`.
+
+### Extending PlayerFrame for rollout visualization (planned)
+
+To overlay world-model rollouts, a `PlayerFrame` can carry **optional** predicted-position fields alongside the real (ground-truth) ones:
+
+```json
+{
+  "name": "ZywOo",
+  "side": "CT",
+  "x": -1200.5,        // actual position (ground truth from the demo)
+  "y": 300.2,
+  "z": -100.0,
+  "predicted_x": -1180.0,   // optional: world-model prediction for this tick
+  "predicted_y": 312.0,     // optional
+  "hp": 100,
+  "alive": true
+}
+```
+
+When `predicted_x` / `predicted_y` are present the renderer can draw a ghost dot at the predicted location next to the real dot; when absent (every normal demo) nothing changes. These fields do **not** exist in current exports — they are the proposed extension for the rollout-viz direction, not a shipped schema.
+
+## commentary.json (optional, dormant)
+
+A caster-commentary track for a demo, synced to the timeline. Belongs to the parked language phase — most demos won't have one; the viewer renders fine without it. The bundled `sample-match` (Spirit vs Falcons, dust2) has a real aligned track.
+
+```json
+{
+  "_meta": {
+    "source_vod": "TQwIfQqwP_M",
+    "source": "StarLadder Major Budapest 2025 — spirit-vs-falcons-m2-dust2 auto-captions",
+    "alignment": "REAL: kills↔name-mentions cross-correlation. offset=10274s, confidence=4.6sigma, 46/187 (25%) kills anchored. Tick ranges are absolute demo ticks.",
+    "n_lines": 128
+  },
+  "lines": [
+    {
+      "round_num": 1,
+      "tick_start": 816,
+      "tick_end": 2736,
+      "bucket": "offtopic",
+      "specific_hits": [],
+      "structurally_flat": true,
+      "text": "..."
+    }
+  ]
+}
+```
+
+- `_meta` (optional): provenance. Only `source` and `alignment` are read by the UI; `source_vod` / `n_lines` are informational. The `alignment` string records that timing came from a real kills↔name-mentions cross-correlation (global offset solid at 4.6σ; per-line timing good to a few seconds, limited by ~25% ASR name recall — not frame-exact).
+- `lines[]`: each entry has `round_num`, absolute `tick_start` / `tick_end`, a `bucket` (`tactical` | `vague` | `offtopic` | `silence`), `text`, and optional `specific_hits` (string tags) and `t_vod` (seconds into the source VOD). `structurally_flat` may also appear in the data; it is not consumed by the viewer.
+
 ## maps/
 
 ### Radar images
@@ -176,7 +228,7 @@ PNG files named `{map_name}.png` (upper level) and `{map_name}_lower.png` (lower
 
 ### map-data.json
 
-Coordinate transformation metadata for converting game coordinates (X, Y) to radar pixel coordinates. Keyed by map name:
+Coordinate transformation metadata for converting game coordinates (X, Y) to radar pixel coordinates. Keyed by map name. Sourced from [awpy](https://github.com/pnxenopoulos/awpy)'s `MAP_DATA`.
 
 ```json
 {
@@ -184,16 +236,22 @@ Coordinate transformation metadata for converting game coordinates (X, Y) to rad
     "pos_x": -3230,
     "pos_y": 1713,
     "scale": 5.0,
-    "z_cutoff": null
+    "lower_level_max_units": -1000000.0
   },
   "de_nuke": {
     "pos_x": -3453,
     "pos_y": 2887,
     "scale": 7.0,
-    "z_cutoff": -500
+    "lower_level_max_units": -495.0
   }
 }
 ```
+
+| Field | Meaning |
+|-------|---------|
+| `pos_x`, `pos_y` | Game-coordinate origin of the radar image (top-left). |
+| `scale` | Game units per radar pixel. |
+| `lower_level_max_units` | Z threshold for the lower-level radar image. A player with `z < lower_level_max_units` is drawn on `{map}_lower.png`. Single-level maps use a sentinel `-1000000.0` (nothing is ever below it). |
 
 **Coordinate conversion:**
 
@@ -202,7 +260,7 @@ pixel_x = (game_x - pos_x) / scale
 pixel_y = (pos_y - game_y) / scale
 ```
 
-For maps with `z_cutoff` (e.g. de_nuke), players with `z < z_cutoff` are rendered on the lower level radar image.
+For multi-level maps (e.g. de_nuke, de_train), a player or event is rendered on the lower radar image when its `z < lower_level_max_units`; the viewer treats any map with `lower_level_max_units > -999999` as having a lower level.
 
 ## Generating data
 
