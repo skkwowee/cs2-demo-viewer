@@ -11,6 +11,7 @@ export interface PlayerFrame {
   yaw?: number;
   hp: number;
   alive: boolean;
+  sees_enemy?: boolean;
 }
 
 export interface MapInfo {
@@ -52,6 +53,7 @@ interface Props {
   killLines?: KillLine[];
   damageLines?: DamageLine[];
   shotTracers?: ShotTracer[];
+  losEdges?: number[][];   // [i,j] pairs into players[] with clear line-of-sight
 }
 
 const CANVAS_SIZE = 1024;
@@ -179,6 +181,7 @@ function drawOnCanvas(
   killLines: KillLine[] | undefined,
   damageLines: DamageLine[] | undefined,
   shotTracers: ShotTracer[] | undefined,
+  losEdges: number[][] | undefined,
   levelFilter: "upper" | "lower" | "all",
   lowerThreshold: number,
   wallMask: Uint8Array | null,
@@ -274,11 +277,44 @@ function drawOnCanvas(
     }
   }
 
+  // Draw line-of-sight edges (cross-team clear sightlines) — the derived
+  // visibility feature, drawn so it can be eyeballed against the walls.
+  if (losEdges && losEdges.length > 0) {
+    for (const [i, j] of losEdges) {
+      const a = players[i];
+      const b = players[j];
+      if (!a || !b) continue;
+      const [ax, ay] = worldToPixel(a.x, a.y);
+      const [bx, by] = worldToPixel(b.x, b.y);
+      ctx.save();
+      ctx.globalAlpha = 0.55;
+      ctx.strokeStyle = "#22d3ee"; // cyan — "can see each other"
+      ctx.lineWidth = 1.25;
+      ctx.beginPath();
+      ctx.moveTo(ax, ay);
+      ctx.lineTo(bx, by);
+      ctx.stroke();
+      ctx.restore();
+    }
+  }
+
   // Draw players
   for (const p of players) {
     const [px, py] = worldToPixel(p.x, p.y);
 
     if (px < -20 || px > CANVAS_SIZE + 20 || py < -20 || py > CANVAS_SIZE + 20) continue;
+
+    // Ring on players who currently have line-of-sight to an enemy
+    if (p.sees_enemy && p.alive) {
+      ctx.save();
+      ctx.globalAlpha = 0.9;
+      ctx.strokeStyle = "#22d3ee";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(px, py, DOT_RADIUS + 3, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.restore();
+    }
 
     const onThisLevel = isPlayerOnLevel(p.z);
     const levelAlpha = onThisLevel ? 1.0 : OTHER_LEVEL_ALPHA;
@@ -363,7 +399,7 @@ function drawOnCanvas(
   }
 }
 
-export default function MapCanvas({ mapName, players, mapData, killLines, damageLines, shotTracers }: Props) {
+export default function MapCanvas({ mapName, players, mapData, killLines, damageLines, shotTracers, losEdges }: Props) {
   const upperCanvasRef = useRef<HTMLCanvasElement>(null);
   const lowerCanvasRef = useRef<HTMLCanvasElement>(null);
   const upperImgRef = useRef<HTMLImageElement | null>(null);
@@ -456,7 +492,7 @@ export default function MapCanvas({ mapName, players, mapData, killLines, damage
         drawOnCanvas(
           ctx, upperImgRef.current, upperImgLoaded, mapName, info,
           players, worldToPixel, yawToCanvasAngle,
-          killLines, damageLines, shotTracers,
+          killLines, damageLines, shotTracers, losEdges,
           hasLower ? "upper" : "all", lowerThreshold,
           upperWallMaskRef.current,
         );
@@ -472,14 +508,14 @@ export default function MapCanvas({ mapName, players, mapData, killLines, damage
           drawOnCanvas(
             ctx, lowerImgRef.current, lowerImgLoaded, mapName, info,
             players, worldToPixel, yawToCanvasAngle,
-            killLines, damageLines, shotTracers,
+            killLines, damageLines, shotTracers, losEdges,
             "lower", lowerThreshold,
             lowerWallMaskRef.current,
           );
         }
       }
     }
-  }, [players, mapName, info, upperImgLoaded, lowerImgLoaded, worldToPixel, hasLower, yawToCanvasAngle, killLines, damageLines, shotTracers]);
+  }, [players, mapName, info, upperImgLoaded, lowerImgLoaded, worldToPixel, hasLower, yawToCanvasAngle, killLines, damageLines, shotTracers, losEdges]);
 
   // Mouse hover for tooltip
   const handleMouseMove = useCallback(

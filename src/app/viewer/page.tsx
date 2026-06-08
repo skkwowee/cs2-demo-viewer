@@ -21,7 +21,7 @@ interface RoundData {
   reason: string;
   bomb_plant_tick: number | null;
   bomb_site: string | null;
-  frames: { tick: number; players: PlayerFrame[] }[];
+  frames: { tick: number; players: PlayerFrame[]; los_edges?: number[][] }[];
 }
 
 interface DamageEvent {
@@ -236,6 +236,7 @@ export default function ViewerPage() {
             killLines={activeKillLines}
             damageLines={activeDamageLines}
             shotTracers={activeShotTracers}
+            losEdges={currentFrame?.los_edges}
           />
         </div>
 
